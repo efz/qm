@@ -1,0 +1,1573 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     69070,       1565]
+NotebookOptionsPosition[     67644,       1531]
+NotebookOutlinePosition[     68028,       1548]
+CellTagsIndexPosition[     67985,       1545]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryResults",
+  DynamicModuleBox[{Typeset`q$$ = " reduced plank constant in Js", 
+   Typeset`opts$$ = {
+   AppearanceElements -> {"Extrusion", "Warnings", "Assumptions", "Pods"}, 
+    Asynchronous -> All, 
+    Method -> {
+     "ExtrusionChosen" -> {"Value", "Value", 1, 2, "Content"}, 
+      "Formats" -> {"cell", "minput", "moutput", "msound", "dataformats"}, 
+      "ExtrusionOpen" -> False}}, Typeset`elements$$ = {
+   "Extrusion", "Warnings", "Assumptions", "Pods"}, Typeset`pod1$$ = 
+   XMLElement[
+   "pod", {"error" -> "false", "id" -> "Input", "numsubpods" -> "1", 
+     "position" -> "100", "scanner" -> "Identity", "title" -> 
+     "Input interpretation"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement[
+       "minput", {}, {"Quantity[None, \"ReducedPlanckConstant\"]"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             TagBox[
+              RowBox[{
+                TagBox[
+                 RowBox[{
+                   TagBox[
+                    StyleBox[
+                    "\"\[HBar]\"", FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], HoldForm]}], Identity], "  ", 
+                StyleBox[
+                 
+                 RowBox[{
+                  "\"(\"", "\[NoBreak]", "\"reduced Planck constant\"", 
+                   "\[NoBreak]", "\")\""}], {
+                 FontFamily -> "Helvetica", FontSize -> Smaller, 
+                  GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+                   LineIndent -> 0}, StripOnInput -> False]}], 
+              PolynomialForm[#, TraditionalOrder -> False]& ], 
+             LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 0, 
+             ZeroWidthTimes -> False], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement["dataformats", {}, {"plaintext,minput"}]}]}], 
+   Typeset`pod2$$ = XMLElement[
+   "pod", {"error" -> "false", "id" -> "Definition", "numsubpods" -> "1", 
+     "position" -> "200", "scanner" -> "Unit", "title" -> "Definition"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             GridBox[{{
+                FractionBox[
+                 StyleBox["\"h\"", Italic, StripOnInput -> False], 
+                 RowBox[{"2", " ", "\[Pi]"}]]}, {
+                StyleBox[
+                 RowBox[{"\"(\"", "\[NoBreak]", 
+                   TemplateBox[{
+                    StyleBox["\"h\"", Italic, StripOnInput -> False], 
+                    "\": \"", "\"Planck constant\""}, "RowDefault"], 
+                   "\[NoBreak]", "\")\""}], {
+                 FontFamily -> "Verdana", FontSize -> 10, 
+                  GrayLevel[0.5], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+                   LineIndent -> 0}, StripOnInput -> False]}}, 
+              GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+              AllowScriptLevelChange -> False, DefaultBaseStyle -> "Column", 
+              GridBoxItemSize -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+             "Column"], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,formuladata"}]}]}], 
+   Typeset`pod3$$ = XMLElement[
+   "pod", {"error" -> "false", "id" -> "Value", "numsubpods" -> "2", 
+     "position" -> "300", "scanner" -> "Unit", "title" -> "Value"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             TagBox[
+              RowBox[{
+                TagBox[
+                 TagBox[
+                  RowBox[{
+                    TagBox[
+                    RowBox[{"1.0545718", 
+                    StyleBox["\[Times]", 
+                    GrayLevel[0.5]], 
+                    SuperscriptBox["10", "-34"]}], 
+                    Global`TagBoxWrapper[
+                    "StringBoxes" -> RowBox[{"1.0545718", "\[Times]", 
+                    SuperscriptBox["10", "-34"]}], "SRString" -> 
+                    "1.0545718 times 10 to the negative 34"], SyntaxForm -> 
+                    CenterDot], "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"J\"", "\[InvisibleSpace]", "\"\[ThinSpace]\"", 
+                    "\[InvisibleSpace]", "\"s\""}], FontFamily -> "Helvetica",
+                     FontSize -> Smaller]}], Identity], #& , SyntaxForm -> 
+                 Dot], "  ", 
+                StyleBox[
+                 
+                 RowBox[{
+                  "\"(\"", "\[NoBreak]", "\"joule seconds\"", "\[NoBreak]", 
+                   "\")\""}], {FontFamily -> "Helvetica", FontSize -> Smaller, 
+                  GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+                   LineIndent -> 0}, StripOnInput -> False]}], "Unit", 
+              SyntaxForm -> Dot], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+              LineIndent -> 0, ZeroWidthTimes -> False], TraditionalForm]], 
+          "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,numberdata,quantitydata"}]}], 
+     
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            StyleBox[
+             TagBox[
+              RowBox[{
+                TagBox[
+                 TagBox[
+                  RowBox[{
+                    TagBox[
+                    RowBox[{"6.58212", 
+                    StyleBox["\[Times]", 
+                    GrayLevel[0.5]], 
+                    SuperscriptBox["10", "-16"]}], 
+                    Global`TagBoxWrapper[
+                    "StringBoxes" -> RowBox[{"6.58212", "\[Times]", 
+                    SuperscriptBox["10", "-16"]}], "SRString" -> 
+                    "6.58212 times 10 to the negative 16"], SyntaxForm -> 
+                    CenterDot], "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"eV\"", "\[InvisibleSpace]", "\"\[ThinSpace]\"", 
+                    "\[InvisibleSpace]", "\"s\""}], FontFamily -> "Helvetica",
+                     FontSize -> Smaller]}], Identity], #& , SyntaxForm -> 
+                 Dot], "  ", 
+                StyleBox[
+                 
+                 RowBox[{
+                  "\"(\"", "\[NoBreak]", "\"electronvolt seconds\"", 
+                   "\[NoBreak]", "\")\""}], {
+                 FontFamily -> "Helvetica", FontSize -> Smaller, 
+                  GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+                   LineIndent -> 0}, StripOnInput -> False]}], "Unit", 
+              SyntaxForm -> Dot], LinebreakAdjustments -> {1, 100, 1, 0, 100},
+              LineIndent -> 0, ZeroWidthTimes -> False], TraditionalForm]], 
+          "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,numberdata,quantitydata"}]}]}]\
+, Typeset`pod4$$ = XMLElement[
+   "pod", {"error" -> "false", "id" -> "ComparisonAsAction", "numsubpods" -> 
+     "1", "position" -> "400", "scanner" -> "Unit", "title" -> 
+     "Comparison as action"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            FormBox[
+             TemplateBox[{"\" \[TildeTilde] \"", 
+               StyleBox["\"( \"", {
+                 GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                 LineIndent -> 0}, StripOnInput -> False], 
+               TemplateBox[{"\"\"", "0", "\".\"", "1", "6"}, "RowDefault"], 
+               StyleBox[
+                
+                TemplateBox[{
+                 "\" \[TildeTilde] \"", "\"1\"", "\"/\"", "6", "\" ) \""}, 
+                 "RowDefault"], {
+                 GrayLevel[0.6], LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                 LineIndent -> 0}, StripOnInput -> False], 
+               StyleBox["\"\[Times]\"", 
+                GrayLevel[0.3], FontSize -> 10.219999999999999`, StripOnInput -> 
+                False], "\"\[MediumSpace]\"", 
+               StyleBox[
+               "\"Planck constant\"", FontFamily -> "Helvetica", FontSize -> 
+                Smaller, StripOnInput -> False], "\" \"", 
+               StyleBox[
+                RowBox[{"\"(\"", "\[NoBreak]", 
+                  TemplateBox[{"\"\[TildeTilde]\[ThinSpace]\"", 
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{"6.6", 
+                    StyleBox["\[Times]", 
+                    GrayLevel[0.5]], 
+                    SuperscriptBox["10", "-34"]}], 
+                    Global`TagBoxWrapper[
+                    "StringBoxes" -> RowBox[{"6.6", "\[Times]", 
+                    SuperscriptBox["10", "-34"]}], "SRString" -> 
+                    "6.6 times 10 to the negative 34"], SyntaxForm -> 
+                    CenterDot], "\[NoBreak]", 
+                    StyleBox[
+                    RowBox[{}], FontFamily -> "Helvetica", FontSize -> 
+                    Smaller], "\[InvisibleSpace]", "\[ThickSpace]", 
+                    "\[InvisibleSpace]", 
+                    StyleBox[
+                    
+                    RowBox[{"\"J\"", "\[InvisibleSpace]", "\"\[ThinSpace]\"", 
+                    "\[InvisibleSpace]", "\"s\""}], FontFamily -> "Helvetica",
+                     FontSize -> Smaller]}], Identity], #& , SyntaxForm -> 
+                    Dot], "Unit", SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False], "\"\[MediumSpace]\""}, 
+                   "RowDefault"], "\[NoBreak]", "\")\""}], {
+                FontFamily -> "Verdana", FontSize -> 10, 
+                 GrayLevel[0.5], LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                 LineIndent -> 0}, StripOnInput -> False]}, "RowDefault"], 
+             TraditionalForm], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement["dataformats", {}, {"plaintext"}]}]}], Typeset`pod5$$ = 
+   XMLElement[
+   "pod", {"error" -> "false", "id" -> "Interpretation", "numsubpods" -> "2", 
+     "position" -> "500", "scanner" -> "Unit", "title" -> "Interpretations"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            FormBox[
+             TagBox["\"angular momentum\"", Identity], TraditionalForm], 
+            TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement["dataformats", {}, {"plaintext"}]}], 
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            FormBox[
+             TagBox["\"action\"", Identity], TraditionalForm], 
+            TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement["dataformats", {}, {"plaintext"}]}], 
+     XMLElement["states", {"count" -> "1"}, {
+       XMLElement[
+       "state", {
+        "name" -> "More", "input" -> "Interpretation__More"}, {}]}]}], 
+   Typeset`pod6$$ = XMLElement[
+   "pod", {"error" -> "false", "id" -> "BasicUnitDimensions", "numsubpods" -> 
+     "1", "position" -> "600", "scanner" -> "Unit", "title" -> 
+     "Basic unit dimensions"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             RowBox[{"\"[mass]\"", " ", 
+               
+               TemplateBox[{"\"[length]\"", "2"}, "Superscript", SyntaxForm -> 
+                SuperscriptBox], " ", 
+               TemplateBox[{"\"[time]\"", 
+                 RowBox[{"-", "1"}]}, "Superscript", SyntaxForm -> 
+                SuperscriptBox]}], HoldForm], TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,formuladata"}]}]}], 
+   Typeset`aux1$$ = {True, False, {False}, True}, Typeset`aux2$$ = {
+   True, False, {False}, True}, Typeset`aux3$$ = {
+   True, False, {False, False}, True}, Typeset`aux4$$ = {
+   True, False, {False}, True}, Typeset`aux5$$ = {
+   True, False, {False, False}, True}, Typeset`aux6$$ = {
+   True, False, {False}, True}, Typeset`asyncpods$$ = {}, Typeset`nonpods$$ = {
+    XMLElement["warnings", {"count" -> "1"}, {
+      XMLElement[
+      "reinterpret", {
+       "text" -> "Using closest Wolfram|Alpha interpretation:", "new" -> 
+        "reduced plank constant", "score" -> "0.49068877551020407", "level" -> 
+        "medium"}, {}]}]}, Typeset`initdone$$ = True, Typeset`queryinfo$$ = {
+   "success" -> "true", "error" -> "false", "numpods" -> "6", "datatypes" -> 
+    "Quantity", "timedout" -> "", "timedoutpods" -> "", "timing" -> "4.066", 
+    "parsetiming" -> "0.", "parsetimedout" -> "false", "recalculate" -> "", 
+    "id" -> "MSPa94611f964a8h59a5a03c0000678bh5ha0592b8i4", "host" -> 
+    "http://www4b.wolframalpha.com", "server" -> "48", "related" -> "", 
+    "version" -> "2.6"}, Typeset`sessioninfo$$ = {
+   "TimeZone" -> -4., 
+    "Date" -> {2018, 10, 27, 16, 30, 53.592993`8.48168298640501}, "Line" -> 
+    695, "SessionID" -> 24566522750560406249}, Typeset`showpods$$ = {1, 2, 3, 
+   4, 5, 6}, Typeset`failedpods$$ = {}, Typeset`chosen$$ = {
+   "Value", "Value", 1, 2, "Content"}, Typeset`open$$ = False, 
+   Typeset`newq$$ = " reduced plank constant in Js"}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`FormatAlphaResults[
+      Dynamic[{
+       1, {Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$, 
+         Typeset`pod5$$, Typeset`pod6$$}, {
+        Typeset`aux1$$, Typeset`aux2$$, Typeset`aux3$$, Typeset`aux4$$, 
+         Typeset`aux5$$, Typeset`aux6$$}, Typeset`chosen$$, Typeset`open$$, 
+        Typeset`elements$$, Typeset`q$$, Typeset`opts$$, Typeset`nonpods$$, 
+        Typeset`queryinfo$$, Typeset`sessioninfo$$, Typeset`showpods$$, 
+        Typeset`failedpods$$, Typeset`newq$$}]], StandardForm],
+    ImageSizeCache->{254., {58., 21.}},
+    TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
+   DynamicModuleValues:>{},
+   Initialization:>If[
+     Not[Typeset`initdone$$], Null; 
+     WolframAlphaClient`Private`doAsyncUpdates[
+       Hold[{
+        Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$, 
+         Typeset`pod5$$, Typeset`pod6$$}], Typeset`asyncpods$$, 
+       Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
+     Typeset`initdone$$ = True],
+   SynchronousInitialization->False],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "WolframAlphaShortInput",
+ CellLabel->
+  "In[722]:=",ExpressionUUID->"9e1ee00e-651c-4714-ad40-d9d49e77cab9"],
+
+Cell[BoxData[
+ InterpretationBox[
+  FrameBox[
+   StyleBox[
+    FormBox[
+     StyleBox[
+      StyleBox[
+       RowBox[{
+        RowBox[{"1.0545718", 
+         StyleBox["\[Times]",
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontColor->GrayLevel[0.5]], 
+         SuperscriptBox["10", 
+          RowBox[{"-", "34"}]]}], "\[NoBreak]", "\[InvisibleSpace]", 
+        "\[ThickSpace]", "\[InvisibleSpace]", 
+        StyleBox[
+         RowBox[{"\<\"J\"\>", "\[InvisibleSpace]", "\<\"\[ThinSpace]\"\>", 
+          "\[InvisibleSpace]", "\<\"s\"\>"}],
+         FontFamily->"Helvetica",
+         FontSize->Smaller], "  ", 
+        StyleBox[
+         RowBox[{"\<\"(\"\>", "\[NoBreak]", "\<\"joule seconds\"\>", 
+          "\[NoBreak]", "\<\")\"\>"}],
+         StripOnInput->False,
+         LineIndent->0,
+         LinebreakAdjustments->{1, 100, 1, 0, 100},
+         LineColor->GrayLevel[0.6],
+         FrontFaceColor->GrayLevel[0.6],
+         BackFaceColor->GrayLevel[0.6],
+         GraphicsColor->GrayLevel[0.6],
+         FontFamily->"Helvetica",
+         FontSize->Smaller,
+         FontColor->GrayLevel[0.6]]}], "Unit"],
+      ZeroWidthTimes->False,
+      LineIndent->0,
+      LinebreakAdjustments->{1, 100, 1, 0, 100}],
+     TraditionalForm], "Output",
+    CellSize->{550, Automatic},
+    AutoStyleOptions->{"HighlightFormattingErrors"->False},
+    ScriptLevel->0,
+    NumberPoint->".",
+    RenderingOptions->{"3DRenderingMethod"->"BSPTreeOrDepthBuffer"},
+    FontFamily->"Times",
+    FontSize->14,
+    Background->None,
+    GraphicsBoxOptions->{DefaultAxesStyle->Directive[
+      GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 1, 
+      "GraphicsAxes"],
+    DefaultBaseStyle->{FontFamily -> "Times", "Graphics"},
+    DefaultFrameStyle->Directive[
+      GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 1, 
+      "GraphicsFrame"],
+    DefaultFrameTicksStyle->Directive[
+     FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"],
+    DefaultTicksStyle->Directive[
+     FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]},
+    Graphics3DBoxOptions->{
+    DefaultBaseStyle->{FontFamily -> "Times", "Graphics3D"}}],
+   BaseStyle->{Plain},
+   FrameMargins->10,
+   FrameStyle->GrayLevel[0.85],
+   RoundingRadius->5,
+   StripOnInput->False],
+  WolframAlphaResult[
+  " reduced plank constant in Js", {{"Value", 1}, "Content"}]]], "Output",
+ CellChangeTimes->{{3.749660977383605*^9, 3.749661010554545*^9}, {
+   3.749661059928062*^9, 3.749661064211097*^9}, 3.749661094324553*^9, {
+   3.749661145104156*^9, 3.7496611643597193`*^9}, 3.749661397629477*^9},
+ CellLabel->
+  "Out[722]=",ExpressionUUID->"dc83d6b7-ef06-443f-9e90-f1c5559f98f2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[HBar]", " ", "=", " ", 
+  RowBox[{"UnitConvert", "[", 
+   RowBox[{
+    RowBox[{"Quantity", "[", 
+     RowBox[{"1.0545718*^-34", ",", 
+      RowBox[{"\"\<Joules\>\"", " ", "\"\<Seconds\>\""}]}], "]"}], ",", " ", 
+    RowBox[{"\"\<Grams\>\"", " ", "*", 
+     RowBox[{"\"\<Centimeters\>\"", "^", "2"}], " ", "*", 
+     RowBox[{"\"\<Seconds\>\"", "^", 
+      RowBox[{"-", "1"}]}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.749658034841578*^9, 3.7496580488444757`*^9}, {
+   3.749658095377563*^9, 3.749658130209876*^9}, {3.749658242679553*^9, 
+   3.749658246786786*^9}, {3.749658281431624*^9, 3.7496582832819653`*^9}, {
+   3.749658623528179*^9, 3.7496586271410427`*^9}, {3.74965871471742*^9, 
+   3.749658721893639*^9}, {3.749658767376562*^9, 3.749658769329463*^9}, {
+   3.749659601942637*^9, 3.749659608667301*^9}, {3.749659832764338*^9, 
+   3.749659864918132*^9}, 3.749660014154601*^9, {3.749660255849327*^9, 
+   3.749660305002907*^9}, {3.749660465234851*^9, 3.749660466865849*^9}},
+ CellLabel->
+  "In[723]:=",ExpressionUUID->"fef75727-8d0d-480f-8306-5585b07b86b4"],
+
+Cell[BoxData[
+ TemplateBox[{"1.0545718`*^-27",RowBox[{"\"g\"", "\[ThinSpace]", 
+     SuperscriptBox["\"cm\"", "2"], "\[NegativeMediumSpace]", "\"/\"", 
+     "\[InvisibleSpace]", "\"s\""}],"gram centimeters squared per second",
+   FractionBox[
+    RowBox[{
+      SuperscriptBox["\"Centimeters\"", "2"], " ", "\"Grams\""}], 
+    "\"Seconds\""]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{
+  3.749658725192692*^9, 3.749658775154661*^9, 3.7496596162938137`*^9, 
+   3.749659871495512*^9, {3.749660018258872*^9, 3.7496600293501463`*^9}, 
+   3.749660063347077*^9, 3.749660187792857*^9, 3.749660307912726*^9, {
+   3.7496604691251993`*^9, 3.749660485930397*^9}, 3.749660619874946*^9, 
+   3.7496607268045073`*^9, 3.749661010702689*^9, 3.749661064369582*^9, 
+   3.749661094471672*^9, {3.749661145272132*^9, 3.749661164460878*^9}, 
+   3.749661397712722*^9},
+ CellLabel->
+  "Out[723]=",ExpressionUUID->"6eaaf43b-4097-411e-8dcf-fff4b721de05"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["m", "e"], "=", 
+  NamespaceBox["WolframAlphaQueryParseResults",
+   DynamicModuleBox[{Typeset`q$$ = "Electron Mass in g", Typeset`newq$$ = 
+    "Electron Mass in g", Typeset`chosen$$ = 
+    "UnitConvert[Entity[\"Particle\", \"Electron\"][EntityProperty[\"Particle\
+\", \"Mass\"]], \"Grams\"]", Typeset`open$$ = False}, 
+    PaneSelectorBox[{False->
+     DynamicModuleBox[{WolframAlphaClient`Private`show$$ = False, 
+      WolframAlphaClient`Private`assumptionsQ$$ = True}, 
+      TagBox[
+       FrameBox[
+        TagBox[GridBox[{
+           {
+            InputFieldBox[Dynamic[Typeset`newq$$], String,
+             Appearance->None,
+             BaseStyle->{"CalculateInput"},
+             ContinuousAction->True,
+             Enabled->True,
+             FieldSize->{{1, 40}, {1, 
+                DirectedInfinity[1]}},
+             TrapSelection->False], 
+            ButtonBox[
+             TagBox[
+              TooltipBox[
+               StyleBox["\<\"\[RightGuillemet]\"\>",
+                StripOnInput->False,
+                LineColor->RGBColor[1, 0.5, 0],
+                FrontFaceColor->RGBColor[1, 0.5, 0],
+                BackFaceColor->RGBColor[1, 0.5, 0],
+                GraphicsColor->RGBColor[1, 0.5, 0],
+                FontColor->RGBColor[1, 0.5, 0]],
+               DynamicBox[
+                ToBoxes[
+                 FEPrivate`FrontEndResource[
+                 "WAStrings", "InterpretationAssumptions"], StandardForm]]],
+              Annotation[#, 
+               Dynamic[
+                FEPrivate`FrontEndResource[
+                "WAStrings", "InterpretationAssumptions"]], "Tooltip"]& ],
+             Appearance->None,
+             BaselinePosition->Baseline,
+             ButtonFunction:>(Quiet[
+                WolframAlpha[]]; Typeset`open$$ = True; 
+              WolframAlphaClient`Private`extrudeFromFastParse[
+               "Electron Mass in g", 
+                Defer[
+                 UnitConvert[
+                  Entity["Particle", "Electron"][
+                   EntityProperty["Particle", "Mass"]], "Grams"]], 
+                "Fast parse"]; Typeset`open$$ = False),
+             ContentPadding->False,
+             Evaluator->Automatic,
+             Method->"Queued"], 
+            ItemBox[
+             ButtonBox[
+              PaneSelectorBox[{True->
+               TagBox[
+                TooltipBox[
+                 
+                 DynamicBox[FEPrivate`FrontEndResource[
+                  "WABitmaps", "OrangeSquarePlus"],
+                  ImageSizeCache->{13., {3., 11.}}],
+                 DynamicBox[
+                  ToBoxes[
+                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
+                   StandardForm]]],
+                Annotation[#, 
+                 Dynamic[
+                  FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"]], 
+                 "Tooltip"]& ], False->
+               TagBox[
+                TooltipBox[
+                 
+                 DynamicBox[FEPrivate`FrontEndResource[
+                  "WABitmaps", "GraySquarePlus"],
+                  ImageSizeCache->{13., {3., 11.}}],
+                 DynamicBox[
+                  ToBoxes[
+                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
+                   StandardForm]]],
+                Annotation[#, 
+                 Dynamic[
+                  FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"]], 
+                 "Tooltip"]& ]}, Dynamic[WolframAlphaClient`Private`show$$],
+               ImageSize->All],
+              Appearance->None,
+              ButtonFunction:>(Quiet[
+                 WolframAlpha[]]; If[
+                 Or[
+                  CurrentValue["OptionKey"], 
+                  CurrentValue["AltKey"]], SelectionMove[
+                   ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+                 NotebookWrite[
+                   ButtonNotebook[], 
+                   Cell[
+                   Typeset`newq$$, "WolframAlphaShort", FormatType -> 
+                    "TextForm"], All], Typeset`open$$ = True; 
+                 WolframAlphaClient`Private`extrudeFromFastParse[
+                  "Electron Mass in g", 
+                   Defer[
+                    UnitConvert[
+                    Entity["Particle", "Electron"][
+                    EntityProperty["Particle", "Mass"]], "Grams"]], 
+                   "Fast parse"]; Typeset`open$$ = False]),
+              Evaluator->Automatic,
+              Method->"Queued"],
+             Alignment->{Right, Top},
+             StripOnInput->False]},
+           {
+            PaneBox[
+             TagBox[
+              TooltipBox[
+               ButtonBox[
+                PaneSelectorBox[{False->
+                 StyleBox[
+                  RowBox[{"UnitConvert", "[", 
+                   RowBox[{
+                    RowBox[{
+                    TemplateBox[{"\"e-\"",RowBox[{"Entity", "[", 
+                    RowBox[{"\"Particle\"", ",", "\"Electron\""}], "]"}],
+                    "\"Entity[\\\"Particle\\\", \\\"Electron\\\"]\"",
+                    "\"particle\""},
+                    "Entity"], "[", 
+                    TemplateBox[{"\"mass\"",RowBox[{"EntityProperty", "[", 
+                    RowBox[{"\"Particle\"", ",", "\"Mass\""}], "]"}],
+                    "\"EntityProperty[\\\"Particle\\\", \\\"Mass\\\"]\""},
+                    "EntityProperty"], "]"}], ",", " ", "\"\<Grams\>\""}], 
+                   "]"}],
+                  StripOnInput->False,
+                  NumberMarks->False], True->
+                 StyleBox[
+                  RowBox[{"UnitConvert", "[", 
+                   RowBox[{
+                    RowBox[{
+                    TemplateBox[{"\"e-\"",RowBox[{"Entity", "[", 
+                    RowBox[{"\"Particle\"", ",", "\"Electron\""}], "]"}],
+                    "\"Entity[\\\"Particle\\\", \\\"Electron\\\"]\"",
+                    "\"particle\""},
+                    "Entity"], "[", 
+                    TemplateBox[{"\"mass\"",RowBox[{"EntityProperty", "[", 
+                    RowBox[{"\"Particle\"", ",", "\"Mass\""}], "]"}],
+                    "\"EntityProperty[\\\"Particle\\\", \\\"Mass\\\"]\""},
+                    "EntityProperty"], "]"}], ",", " ", "\"\<Grams\>\""}], 
+                   "]"}],
+                  StripOnInput->False,
+                  ShowSyntaxStyles->False,
+                  NumberMarks->False,
+                  FontColor->RGBColor[1, 0.5, 0]]}, Dynamic[
+                  CurrentValue["MouseOver"]],
+                 BaseStyle->{ShowStringCharacters -> True},
+                 FrameMargins->0,
+                 ImageSize->Automatic],
+                Alignment->Left,
+                Appearance->None,
+                BaseStyle->{},
+                ButtonFunction:>(SelectionMove[
+                   ButtonNotebook[], All, ButtonCell]; NotebookWrite[
+                   ButtonNotebook[], 
+                   Cell[
+                    BoxData[
+                    RowBox[{"UnitConvert", "[", 
+                    RowBox[{
+                    RowBox[{
+                    TemplateBox[{"\"e-\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Particle\"", ",", "\"Electron\""}], "]"}], 
+                    "\"Entity[\\\"Particle\\\", \\\"Electron\\\"]\"", 
+                    "\"particle\""}, "Entity"], "[", 
+                    TemplateBox[{"\"mass\"", 
+                    RowBox[{"EntityProperty", "[", 
+                    RowBox[{"\"Particle\"", ",", "\"Mass\""}], "]"}], 
+                    "\"EntityProperty[\\\"Particle\\\", \\\"Mass\\\"]\""}, 
+                    "EntityProperty"], "]"}], ",", " ", "\"Grams\""}], "]"}]],
+                     "Input"], All]; SelectionMove[
+                   ButtonNotebook[], After, CellContents]),
+                Evaluator->Automatic,
+                ImageSize->Automatic,
+                Method->"Preemptive"],
+               DynamicBox[
+                ToBoxes[
+                 FEPrivate`FrontEndResource["WAStrings", "RemoveResults"], 
+                 StandardForm]]],
+              Annotation[#, 
+               Dynamic[
+                FEPrivate`FrontEndResource["WAStrings", "RemoveResults"]], 
+               "Tooltip"]& ],
+             AppearanceElements->{},
+             BaseStyle->{ShowStringCharacters -> True, ScriptLevel -> 0},
+             ImageSize->{Automatic, {1, 100}},
+             Scrollbars->{False, Automatic}], "\[SpanFromLeft]", 
+            "\[SpanFromLeft]"}
+          },
+          AutoDelete->False,
+          BaselinePosition->{1, 1},
+          FrameStyle->GrayLevel[0.85],
+          GridBoxAlignment->{"Columns" -> {{Left}}},
+          
+          GridBoxDividers->{
+           "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+          
+          GridBoxItemSize->{
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+         "Grid"],
+        Alignment->Top,
+        Background->Dynamic[
+          FEPrivate`If[
+           FEPrivate`And[
+            FEPrivate`SameQ[
+             FEPrivate`Head[Typeset`newq$$], String], 
+            FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+           RGBColor[1., 0.975, 0.95], 
+           GrayLevel[1]]],
+        BaselinePosition->Baseline,
+        FrameStyle->GrayLevel[0.85],
+        ImageSize->Automatic,
+        RoundingRadius->5,
+        StripOnInput->False],
+       EventHandlerTag[{
+        "MouseEntered" :> 
+         FEPrivate`Set[WolframAlphaClient`Private`show$$, True], 
+         "MouseExited" :> 
+         FEPrivate`Set[WolframAlphaClient`Private`show$$, False], Method -> 
+         "Preemptive", PassEventsDown -> Automatic, PassEventsUp -> True}]],
+      DynamicModuleValues:>{}], True->
+     TagBox[GridBox[{
+        {
+         DynamicModuleBox[{WolframAlphaClient`Private`show$$ = False, 
+          WolframAlphaClient`Private`assumptionsQ$$ = True}, 
+          TagBox[
+           FrameBox[
+            TagBox[GridBox[{
+               {
+                InputFieldBox[Dynamic[Typeset`newq$$], String,
+                 Appearance->None,
+                 BaseStyle->{"CalculateInput"},
+                 ContinuousAction->True,
+                 Enabled->True,
+                 FieldSize->{{1, 40}, {1, 
+                    DirectedInfinity[1]}},
+                 TrapSelection->False], 
+                ButtonBox[
+                 TagBox[
+                  TooltipBox[
+                   StyleBox["\<\"\[RightGuillemet]\"\>",
+                    StripOnInput->False,
+                    LineColor->RGBColor[1, 0.5, 0],
+                    FrontFaceColor->RGBColor[1, 0.5, 0],
+                    BackFaceColor->RGBColor[1, 0.5, 0],
+                    GraphicsColor->RGBColor[1, 0.5, 0],
+                    FontColor->RGBColor[1, 0.5, 0]],
+                   DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "InterpretationAssumptions"], StandardForm]]],
+                  Annotation[#, 
+                   Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "InterpretationAssumptions"]], "Tooltip"]& ],
+                 
+                 Appearance->None,
+                 BaselinePosition->Baseline,
+                 ButtonFunction:>(Quiet[
+                    WolframAlpha[]]; Typeset`open$$ = True; 
+                  WolframAlphaClient`Private`extrudeFromFastParse[
+                   "Electron Mass in g", 
+                    Defer[
+                    UnitConvert[
+                    Entity["Particle", "Electron"][
+                    EntityProperty["Particle", "Mass"]], "Grams"]], 
+                    "Fast parse"]; Typeset`open$$ = False),
+                 ContentPadding->False,
+                 Evaluator->Automatic,
+                 Method->"Queued"], 
+                ItemBox[
+                 ButtonBox[
+                  PaneSelectorBox[{True->
+                   TagBox[
+                    TooltipBox[
+                    
+                    DynamicBox[FEPrivate`FrontEndResource[
+                    "WABitmaps", "OrangeSquarePlus"]],
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"],
+                     StandardForm]]],
+                    Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "ShowAllResults"]], "Tooltip"]& ], False->
+                   TagBox[
+                    TooltipBox[
+                    
+                    DynamicBox[FEPrivate`FrontEndResource[
+                    "WABitmaps", "GraySquarePlus"]],
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"],
+                     StandardForm]]],
+                    Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "ShowAllResults"]], "Tooltip"]& ]}, Dynamic[
+                   WolframAlphaClient`Private`show$$],
+                   ImageSize->All],
+                  Appearance->None,
+                  ButtonFunction:>(Quiet[
+                    WolframAlpha[]]; If[
+                    Or[
+                    CurrentValue["OptionKey"], 
+                    CurrentValue["AltKey"]], SelectionMove[
+                    ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+                    NotebookWrite[
+                    ButtonNotebook[], 
+                    Cell[
+                    Typeset`newq$$, "WolframAlphaShort", FormatType -> 
+                    "TextForm"], All], Typeset`open$$ = True; 
+                    WolframAlphaClient`Private`extrudeFromFastParse[
+                    "Electron Mass in g", 
+                    Defer[
+                    UnitConvert[
+                    Entity["Particle", "Electron"][
+                    EntityProperty["Particle", "Mass"]], "Grams"]], 
+                    "Fast parse"]; Typeset`open$$ = False]),
+                  Evaluator->Automatic,
+                  Method->"Queued"],
+                 Alignment->{Right, Top},
+                 StripOnInput->False]},
+               {
+                PaneBox[
+                 TagBox[
+                  TooltipBox[
+                   ButtonBox[
+                    PaneSelectorBox[{False->
+                    StyleBox[
+                    RowBox[{"UnitConvert", "[", 
+                    RowBox[{
+                    RowBox[{
+                    TemplateBox[{"\"e-\"",RowBox[{"Entity", "[", 
+                    RowBox[{"\"Particle\"", ",", "\"Electron\""}], "]"}],
+                    "\"Entity[\\\"Particle\\\", \\\"Electron\\\"]\"",
+                    "\"particle\""},
+                    "Entity"], "[", 
+                    TemplateBox[{"\"mass\"",RowBox[{"EntityProperty", "[", 
+                    RowBox[{"\"Particle\"", ",", "\"Mass\""}], "]"}],
+                    "\"EntityProperty[\\\"Particle\\\", \\\"Mass\\\"]\""},
+                    "EntityProperty"], "]"}], ",", " ", "\<\"Grams\"\>"}], 
+                    "]"}],
+                    StripOnInput->False,
+                    NumberMarks->False], True->
+                    StyleBox[
+                    RowBox[{"UnitConvert", "[", 
+                    RowBox[{
+                    RowBox[{
+                    TemplateBox[{"\"e-\"",RowBox[{"Entity", "[", 
+                    RowBox[{"\"Particle\"", ",", "\"Electron\""}], "]"}],
+                    "\"Entity[\\\"Particle\\\", \\\"Electron\\\"]\"",
+                    "\"particle\""},
+                    "Entity"], "[", 
+                    TemplateBox[{"\"mass\"",RowBox[{"EntityProperty", "[", 
+                    RowBox[{"\"Particle\"", ",", "\"Mass\""}], "]"}],
+                    "\"EntityProperty[\\\"Particle\\\", \\\"Mass\\\"]\""},
+                    "EntityProperty"], "]"}], ",", " ", "\<\"Grams\"\>"}], 
+                    "]"}],
+                    StripOnInput->False,
+                    ShowSyntaxStyles->False,
+                    NumberMarks->False,
+                    FontColor->RGBColor[1, 0.5, 0]]}, Dynamic[
+                    CurrentValue["MouseOver"]],
+                    BaseStyle->{ShowStringCharacters -> True},
+                    FrameMargins->0,
+                    ImageSize->Automatic],
+                    Alignment->Left,
+                    Appearance->None,
+                    BaseStyle->{},
+                    ButtonFunction:>(SelectionMove[
+                    ButtonNotebook[], All, ButtonCell]; NotebookWrite[
+                    ButtonNotebook[], 
+                    Cell[
+                    BoxData[
+                    RowBox[{"UnitConvert", "[", 
+                    RowBox[{
+                    RowBox[{
+                    TemplateBox[{"\"e-\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Particle\"", ",", "\"Electron\""}], "]"}], 
+                    "\"Entity[\\\"Particle\\\", \\\"Electron\\\"]\"", 
+                    "\"particle\""}, "Entity"], "[", 
+                    TemplateBox[{"\"mass\"", 
+                    RowBox[{"EntityProperty", "[", 
+                    RowBox[{"\"Particle\"", ",", "\"Mass\""}], "]"}], 
+                    "\"EntityProperty[\\\"Particle\\\", \\\"Mass\\\"]\""}, 
+                    "EntityProperty"], "]"}], ",", " ", "\"Grams\""}], "]"}]],
+                     "Input"], All]; SelectionMove[
+                    ButtonNotebook[], After, CellContents]),
+                    Evaluator->Automatic,
+                    ImageSize->Automatic,
+                    Method->"Preemptive"],
+                   DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "RemoveResults"], 
+                    StandardForm]]],
+                  Annotation[#, 
+                   Dynamic[
+                    FEPrivate`FrontEndResource["WAStrings", "RemoveResults"]],
+                    "Tooltip"]& ],
+                 AppearanceElements->{},
+                 BaseStyle->{ShowStringCharacters -> True, ScriptLevel -> 0},
+                 ImageSize->{Automatic, {1, 100}},
+                 Scrollbars->{False, Automatic}], "\[SpanFromLeft]", 
+                "\[SpanFromLeft]"}
+              },
+              AutoDelete->False,
+              BaselinePosition->{1, 1},
+              FrameStyle->GrayLevel[0.85],
+              GridBoxAlignment->{"Columns" -> {{Left}}},
+              GridBoxDividers->{
+               "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+              
+              GridBoxItemSize->{
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+             "Grid"],
+            Alignment->Top,
+            Background->Dynamic[
+              FEPrivate`If[
+               FEPrivate`And[
+                FEPrivate`SameQ[
+                 FEPrivate`Head[Typeset`newq$$], String], 
+                FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+               RGBColor[1., 0.975, 0.95], 
+               GrayLevel[1]]],
+            BaselinePosition->Baseline,
+            FrameStyle->GrayLevel[0.85],
+            ImageSize->Automatic,
+            RoundingRadius->5,
+            StripOnInput->False],
+           
+           EventHandlerTag[{
+            "MouseEntered" :> 
+             FEPrivate`Set[WolframAlphaClient`Private`show$$, True], 
+             "MouseExited" :> 
+             FEPrivate`Set[WolframAlphaClient`Private`show$$, False], Method -> 
+             "Preemptive", PassEventsDown -> Automatic, PassEventsUp -> 
+             True}]],
+          DynamicModuleValues:>{}]},
+        {
+         InterpretationBox[
+          StyleBox[
+           
+           DynamicBox[FEPrivate`FrontEndResource[
+            "FEExpressions", "NecklaceAnimator"][20]],
+           AnimatorBoxOptions->{ImageSize->20}],
+          Animator[Appearance -> "Necklace", ImageSize -> 20],
+          BaseStyle->{"Deploy"}]}
+       },
+       BaselinePosition->{1, 1},
+       DefaultBaseStyle->"Column",
+       GridBoxAlignment->{"Columns" -> {{Left}}},
+       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+      "Column"]}, Dynamic[
+      TrueQ[Typeset`open$$]],
+     BaseStyle->{Deployed -> True},
+     ImageSize->Automatic],
+    DynamicModuleValues:>{}],
+   BaseStyle->{Deployed -> True},
+   DeleteWithContents->True,
+   Editable->False,
+   SelectWithContents->True]}]], "WolframAlphaShortInput",
+ CellChangeTimes->{{3.749660714733807*^9, 3.749660716327619*^9}},
+ CellLabel->
+  "In[724]:=",ExpressionUUID->"db6d1c97-be6d-4dcd-80e8-242565d9cdf9"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "9.109383091719491246690022649831`7.330682434419104*^-28","\"g\"","grams",
+   "\"Grams\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{
+  3.749660567498241*^9, 3.749660619947857*^9, {3.749660718465724*^9, 
+   3.7496607268712273`*^9}, 3.7496610107648973`*^9, 3.7496610644314737`*^9, 
+   3.749661094531788*^9, {3.749661145356052*^9, 3.749661164533127*^9}, 
+   3.74966139775992*^9},
+ CellLabel->
+  "Out[724]=",ExpressionUUID->"f7c82725-6a09-49ad-a413-6e12dc2571e6"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"c", " ", "=", 
+  NamespaceBox["WolframAlphaQueryParseResults",
+   DynamicModuleBox[{Typeset`q$$ = "Speed of light in cm./s", Typeset`newq$$ =
+     "Speed of light in cm./s", Typeset`chosen$$ = 
+    "UnitConvert[Quantity[None, \"SpeedOfLight\"], \
+\"Centimeters\"/\"Seconds\"]", Typeset`open$$ = False}, 
+    PaneSelectorBox[{False->
+     DynamicModuleBox[{WolframAlphaClient`Private`show$$ = False, 
+      WolframAlphaClient`Private`assumptionsQ$$ = False}, 
+      TagBox[
+       FrameBox[
+        TagBox[GridBox[{
+           {
+            InputFieldBox[Dynamic[Typeset`newq$$], String,
+             Appearance->None,
+             BaseStyle->{"CalculateInput"},
+             ContinuousAction->True,
+             Enabled->True,
+             FieldSize->{{1, 40}, {1, 
+                DirectedInfinity[1]}},
+             TrapSelection->False], 
+            ItemBox[
+             ButtonBox[
+              PaneSelectorBox[{True->
+               TagBox[
+                TooltipBox[
+                 
+                 DynamicBox[FEPrivate`FrontEndResource[
+                  "WABitmaps", "OrangeSquarePlus"],
+                  ImageSizeCache->{13., {3., 11.}}],
+                 DynamicBox[
+                  ToBoxes[
+                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
+                   StandardForm]]],
+                Annotation[#, 
+                 Dynamic[
+                  FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"]], 
+                 "Tooltip"]& ], False->
+               TagBox[
+                TooltipBox[
+                 
+                 DynamicBox[FEPrivate`FrontEndResource[
+                  "WABitmaps", "GraySquarePlus"],
+                  ImageSizeCache->{13., {3., 11.}}],
+                 DynamicBox[
+                  ToBoxes[
+                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
+                   StandardForm]]],
+                Annotation[#, 
+                 Dynamic[
+                  FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"]], 
+                 "Tooltip"]& ]}, Dynamic[WolframAlphaClient`Private`show$$],
+               ImageSize->All],
+              Appearance->None,
+              ButtonFunction:>(Quiet[
+                 WolframAlpha[]]; If[
+                 Or[
+                  CurrentValue["OptionKey"], 
+                  CurrentValue["AltKey"]], SelectionMove[
+                   ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+                 NotebookWrite[
+                   ButtonNotebook[], 
+                   Cell[
+                   Typeset`newq$$, "WolframAlphaShort", FormatType -> 
+                    "TextForm"], All], Typeset`open$$ = True; 
+                 WolframAlphaClient`Private`extrudeFromFastParse[
+                  "Speed of light in cm./s", 
+                   Defer[
+                    UnitConvert[
+                    Quantity[None, "SpeedOfLight"], "Centimeters"/"Seconds"]],
+                    "Fast parse"]; Typeset`open$$ = False]),
+              Evaluator->Automatic,
+              Method->"Queued"],
+             Alignment->{Right, Top},
+             StripOnInput->False]},
+           {
+            PaneBox[
+             TagBox[
+              TooltipBox[
+               ButtonBox[
+                PaneSelectorBox[{False->
+                 StyleBox[
+                  RowBox[{"UnitConvert", "[", 
+                   RowBox[{
+                    
+                    TemplateBox[{
+                    InterpretationBox["\[InvisibleSpace]", 1],StyleBox[
+                    "\"c\"", Italic, StripOnInput -> False],"speed of light",
+                    "\"SpeedOfLight\""},
+                    "Quantity"], ",", " ", 
+                    RowBox[{"\"\<Centimeters\>\"", "/", "\"\<Seconds\>\""}]}],
+                    "]"}],
+                  StripOnInput->False,
+                  NumberMarks->False], True->
+                 StyleBox[
+                  RowBox[{"UnitConvert", "[", 
+                   RowBox[{
+                    
+                    TemplateBox[{
+                    InterpretationBox["\[InvisibleSpace]", 1],StyleBox[
+                    "\"c\"", Italic, StripOnInput -> False],"speed of light",
+                    "\"SpeedOfLight\""},
+                    "Quantity"], ",", " ", 
+                    RowBox[{"\"\<Centimeters\>\"", "/", "\"\<Seconds\>\""}]}],
+                    "]"}],
+                  StripOnInput->False,
+                  ShowSyntaxStyles->False,
+                  NumberMarks->False,
+                  FontColor->RGBColor[1, 0.5, 0]]}, Dynamic[
+                  CurrentValue["MouseOver"]],
+                 BaseStyle->{ShowStringCharacters -> True},
+                 FrameMargins->0,
+                 ImageSize->Automatic],
+                Alignment->Left,
+                Appearance->None,
+                BaseStyle->{},
+                ButtonFunction:>(SelectionMove[
+                   ButtonNotebook[], All, ButtonCell]; NotebookWrite[
+                   ButtonNotebook[], 
+                   Cell[
+                    BoxData[
+                    RowBox[{"UnitConvert", "[", 
+                    RowBox[{
+                    TemplateBox[{
+                    InterpretationBox["\[InvisibleSpace]", 1], 
+                    StyleBox["\"c\"", Italic, StripOnInput -> False], 
+                    "speed of light", "\"SpeedOfLight\""}, "Quantity", 
+                    SyntaxForm -> Mod], ",", " ", 
+                    RowBox[{"\"Centimeters\"", "/", "\"Seconds\""}]}], "]"}]],
+                     "Input"], All]; SelectionMove[
+                   ButtonNotebook[], After, CellContents]),
+                Evaluator->Automatic,
+                ImageSize->Automatic,
+                Method->"Preemptive"],
+               DynamicBox[
+                ToBoxes[
+                 FEPrivate`FrontEndResource["WAStrings", "RemoveResults"], 
+                 StandardForm]]],
+              Annotation[#, 
+               Dynamic[
+                FEPrivate`FrontEndResource["WAStrings", "RemoveResults"]], 
+               "Tooltip"]& ],
+             AppearanceElements->{},
+             BaseStyle->{ShowStringCharacters -> True, ScriptLevel -> 0},
+             ImageSize->{Automatic, {1, 100}},
+             Scrollbars->{False, Automatic}], "\[SpanFromLeft]"}
+          },
+          AutoDelete->False,
+          BaselinePosition->{1, 1},
+          FrameStyle->GrayLevel[0.85],
+          GridBoxAlignment->{"Columns" -> {{Left}}},
+          
+          GridBoxDividers->{
+           "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+          
+          GridBoxItemSize->{
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+         "Grid"],
+        Alignment->Top,
+        Background->Dynamic[
+          FEPrivate`If[
+           FEPrivate`And[
+            FEPrivate`SameQ[
+             FEPrivate`Head[Typeset`newq$$], String], 
+            FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+           RGBColor[1., 0.975, 0.95], 
+           GrayLevel[1]]],
+        BaselinePosition->Baseline,
+        FrameStyle->GrayLevel[0.85],
+        ImageSize->Automatic,
+        RoundingRadius->5,
+        StripOnInput->False],
+       EventHandlerTag[{
+        "MouseEntered" :> 
+         FEPrivate`Set[WolframAlphaClient`Private`show$$, True], 
+         "MouseExited" :> 
+         FEPrivate`Set[WolframAlphaClient`Private`show$$, False], Method -> 
+         "Preemptive", PassEventsDown -> Automatic, PassEventsUp -> True}]],
+      DynamicModuleValues:>{}], True->
+     TagBox[GridBox[{
+        {
+         DynamicModuleBox[{WolframAlphaClient`Private`show$$ = False, 
+          WolframAlphaClient`Private`assumptionsQ$$ = False}, 
+          TagBox[
+           FrameBox[
+            TagBox[GridBox[{
+               {
+                InputFieldBox[Dynamic[Typeset`newq$$], String,
+                 Appearance->None,
+                 BaseStyle->{"CalculateInput"},
+                 ContinuousAction->True,
+                 Enabled->True,
+                 FieldSize->{{1, 40}, {1, 
+                    DirectedInfinity[1]}},
+                 TrapSelection->False], 
+                ItemBox[
+                 ButtonBox[
+                  PaneSelectorBox[{True->
+                   TagBox[
+                    TooltipBox[
+                    
+                    DynamicBox[FEPrivate`FrontEndResource[
+                    "WABitmaps", "OrangeSquarePlus"]],
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"],
+                     StandardForm]]],
+                    Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "ShowAllResults"]], "Tooltip"]& ], False->
+                   TagBox[
+                    TooltipBox[
+                    
+                    DynamicBox[FEPrivate`FrontEndResource[
+                    "WABitmaps", "GraySquarePlus"]],
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"],
+                     StandardForm]]],
+                    Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "ShowAllResults"]], "Tooltip"]& ]}, Dynamic[
+                   WolframAlphaClient`Private`show$$],
+                   ImageSize->All],
+                  Appearance->None,
+                  ButtonFunction:>(Quiet[
+                    WolframAlpha[]]; If[
+                    Or[
+                    CurrentValue["OptionKey"], 
+                    CurrentValue["AltKey"]], SelectionMove[
+                    ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+                    NotebookWrite[
+                    ButtonNotebook[], 
+                    Cell[
+                    Typeset`newq$$, "WolframAlphaShort", FormatType -> 
+                    "TextForm"], All], Typeset`open$$ = True; 
+                    WolframAlphaClient`Private`extrudeFromFastParse[
+                    "Speed of light in cm./s", 
+                    Defer[
+                    UnitConvert[
+                    Quantity[None, "SpeedOfLight"], "Centimeters"/"Seconds"]],
+                     "Fast parse"]; Typeset`open$$ = False]),
+                  Evaluator->Automatic,
+                  Method->"Queued"],
+                 Alignment->{Right, Top},
+                 StripOnInput->False]},
+               {
+                PaneBox[
+                 TagBox[
+                  TooltipBox[
+                   ButtonBox[
+                    PaneSelectorBox[{False->
+                    StyleBox[
+                    RowBox[{"UnitConvert", "[", 
+                    RowBox[{
+                    
+                    TemplateBox[{
+                    InterpretationBox["\[InvisibleSpace]", 1],StyleBox[
+                    "\"c\"", Italic, StripOnInput -> False],"speed of light",
+                    "\"SpeedOfLight\""},
+                    "Quantity"], ",", " ", 
+                    RowBox[{"\<\"Centimeters\"\>", "/", "\<\"Seconds\"\>"}]}],
+                     "]"}],
+                    StripOnInput->False,
+                    NumberMarks->False], True->
+                    StyleBox[
+                    RowBox[{"UnitConvert", "[", 
+                    RowBox[{
+                    
+                    TemplateBox[{
+                    InterpretationBox["\[InvisibleSpace]", 1],StyleBox[
+                    "\"c\"", Italic, StripOnInput -> False],"speed of light",
+                    "\"SpeedOfLight\""},
+                    "Quantity"], ",", " ", 
+                    RowBox[{"\<\"Centimeters\"\>", "/", "\<\"Seconds\"\>"}]}],
+                     "]"}],
+                    StripOnInput->False,
+                    ShowSyntaxStyles->False,
+                    NumberMarks->False,
+                    FontColor->RGBColor[1, 0.5, 0]]}, Dynamic[
+                    CurrentValue["MouseOver"]],
+                    BaseStyle->{ShowStringCharacters -> True},
+                    FrameMargins->0,
+                    ImageSize->Automatic],
+                    Alignment->Left,
+                    Appearance->None,
+                    BaseStyle->{},
+                    ButtonFunction:>(SelectionMove[
+                    ButtonNotebook[], All, ButtonCell]; NotebookWrite[
+                    ButtonNotebook[], 
+                    Cell[
+                    BoxData[
+                    RowBox[{"UnitConvert", "[", 
+                    RowBox[{
+                    TemplateBox[{
+                    InterpretationBox["\[InvisibleSpace]", 1], 
+                    StyleBox["\"c\"", Italic, StripOnInput -> False], 
+                    "speed of light", "\"SpeedOfLight\""}, "Quantity", 
+                    SyntaxForm -> Mod], ",", " ", 
+                    RowBox[{"\"Centimeters\"", "/", "\"Seconds\""}]}], "]"}]],
+                     "Input"], All]; SelectionMove[
+                    ButtonNotebook[], After, CellContents]),
+                    Evaluator->Automatic,
+                    ImageSize->Automatic,
+                    Method->"Preemptive"],
+                   DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "RemoveResults"], 
+                    StandardForm]]],
+                  Annotation[#, 
+                   Dynamic[
+                    FEPrivate`FrontEndResource["WAStrings", "RemoveResults"]],
+                    "Tooltip"]& ],
+                 AppearanceElements->{},
+                 BaseStyle->{ShowStringCharacters -> True, ScriptLevel -> 0},
+                 ImageSize->{Automatic, {1, 100}},
+                 Scrollbars->{False, Automatic}], "\[SpanFromLeft]"}
+              },
+              AutoDelete->False,
+              BaselinePosition->{1, 1},
+              FrameStyle->GrayLevel[0.85],
+              GridBoxAlignment->{"Columns" -> {{Left}}},
+              
+              GridBoxDividers->{
+               "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+              
+              GridBoxItemSize->{
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+             "Grid"],
+            Alignment->Top,
+            Background->Dynamic[
+              FEPrivate`If[
+               FEPrivate`And[
+                FEPrivate`SameQ[
+                 FEPrivate`Head[Typeset`newq$$], String], 
+                FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+               RGBColor[1., 0.975, 0.95], 
+               GrayLevel[1]]],
+            BaselinePosition->Baseline,
+            FrameStyle->GrayLevel[0.85],
+            ImageSize->Automatic,
+            RoundingRadius->5,
+            StripOnInput->False],
+           
+           EventHandlerTag[{
+            "MouseEntered" :> 
+             FEPrivate`Set[WolframAlphaClient`Private`show$$, True], 
+             "MouseExited" :> 
+             FEPrivate`Set[WolframAlphaClient`Private`show$$, False], Method -> 
+             "Preemptive", PassEventsDown -> Automatic, PassEventsUp -> 
+             True}]],
+          DynamicModuleValues:>{}]},
+        {
+         InterpretationBox[
+          StyleBox[
+           
+           DynamicBox[FEPrivate`FrontEndResource[
+            "FEExpressions", "NecklaceAnimator"][20]],
+           AnimatorBoxOptions->{ImageSize->20}],
+          Animator[Appearance -> "Necklace", ImageSize -> 20],
+          BaseStyle->{"Deploy"}]}
+       },
+       BaselinePosition->{1, 1},
+       DefaultBaseStyle->"Column",
+       GridBoxAlignment->{"Columns" -> {{Left}}},
+       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+      "Column"]}, Dynamic[
+      TrueQ[Typeset`open$$]],
+     BaseStyle->{Deployed -> True},
+     ImageSize->Automatic],
+    DynamicModuleValues:>{}],
+   BaseStyle->{Deployed -> True},
+   DeleteWithContents->True,
+   Editable->False,
+   SelectWithContents->True]}]], "WolframAlphaShortInput",
+ CellChangeTimes->{{3.749660697220634*^9, 3.7496606985542192`*^9}},
+ CellLabel->
+  "In[725]:=",ExpressionUUID->"08cfce7d-71e5-43d3-a505-87a83115163d"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "29979245800",
+   RowBox[{"\"cm\"", "\[InvisibleSpace]", "\"/\"", "\[InvisibleSpace]", 
+     "\"s\""}],"centimeters per second",FractionBox[
+   "\"Centimeters\"", "\"Seconds\""]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7496611454419727`*^9, 3.7496611645938187`*^9}, 
+   3.749661397813957*^9},
+ CellLabel->
+  "Out[725]=",ExpressionUUID->"87056d75-c4ef-4000-86cd-056bffb6a60b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[HBar]", "/", 
+  RowBox[{"(", 
+   RowBox[{"2", " ", 
+    SubscriptBox["m", "e"], " ", "c"}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.749661116067416*^9, 3.749661134924021*^9}},
+ CellLabel->
+  "In[726]:=",ExpressionUUID->"f71aafe6-d531-4679-a321-7697477d979b"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "1.930796436743593`*^-11","\"cm\"","centimeters","\"Centimeters\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.749661137144597*^9, 3.749661164660295*^9}, 
+   3.749661397861106*^9},
+ CellLabel->
+  "Out[726]=",ExpressionUUID->"b7643984-f663-4857-b091-d8bd8283ace0"]
+}, Open  ]]
+},
+WindowSize->{1440, 792},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 23994, 480, 100, "WolframAlphaShortInput",ExpressionUUID->"9e1ee00e-651c-4714-ad40-d9d49e77cab9"],
+Cell[24577, 504, 2790, 72, 73, "Output",ExpressionUUID->"dc83d6b7-ef06-443f-9e90-f1c5559f98f2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27404, 581, 1089, 20, 37, "Input",ExpressionUUID->"fef75727-8d0d-480f-8306-5585b07b86b4"],
+Cell[28496, 603, 931, 18, 51, "Output",ExpressionUUID->"6eaaf43b-4097-411e-8dcf-fff4b721de05"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29464, 626, 20546, 471, 88, "WolframAlphaShortInput",ExpressionUUID->"db6d1c97-be6d-4dcd-80e8-242565d9cdf9"],
+Cell[50013, 1099, 495, 11, 51, "Output",ExpressionUUID->"f7c82725-6a09-49ad-a413-6e12dc2571e6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[50545, 1115, 16040, 380, 82, "WolframAlphaShortInput",ExpressionUUID->"08cfce7d-71e5-43d3-a505-87a83115163d"],
+Cell[66588, 1497, 415, 10, 45, "Output",ExpressionUUID->"87056d75-c4ef-4000-86cd-056bffb6a60b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[67040, 1512, 285, 7, 37, "Input",ExpressionUUID->"f71aafe6-d531-4679-a321-7697477d979b"],
+Cell[67328, 1521, 300, 7, 82, "Output",ExpressionUUID->"b7643984-f663-4857-b091-d8bd8283ace0"]
+}, Open  ]]
+}
+]
+*)
+
