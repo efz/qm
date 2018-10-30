@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    240973,       6106]
-NotebookOptionsPosition[    227387,       5865]
-NotebookOutlinePosition[    227771,       5882]
-CellTagsIndexPosition[    227728,       5879]
+NotebookDataLength[    246395,       6266]
+NotebookOptionsPosition[    231934,       6011]
+NotebookOutlinePosition[    232318,       6028]
+CellTagsIndexPosition[    232275,       6025]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -5855,13 +5855,159 @@ Cell[BoxData["True"], "Output",
   "Out[124]=",ExpressionUUID->"21c870ac-a85a-450b-b917-8474f90d5771"]
 }, Open  ]],
 
+Cell["*****************************************************", "Text",
+ CellChangeTimes->{{3.749925223885068*^9, 
+  3.749925228672408*^9}},ExpressionUUID->"9614e721-e414-4d9d-88bd-\
+a9cc5ef7bcbf"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"TensorContract", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"LeviCivitaTensor", "[", "3", "]"}], " ", "\[TensorProduct]", 
+      " ", "J"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"3", ",", " ", "4"}], "}"}]}], "]"}], "//", "Normal"}], "//", 
+  "MatrixForm"}]], "Input",
+ CellChangeTimes->{{3.749925136614991*^9, 3.749925304885751*^9}},
+ CellLabel->
+  "In[128]:=",ExpressionUUID->"45a69247-2661-4f37-bf33-10da10f18587"],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"0", 
+      SubscriptBox["j", 
+       RowBox[{"1", ",", "2"}]], 
+      SubscriptBox["j", 
+       RowBox[{"1", ",", "3"}]]},
+     {
+      RowBox[{"-", 
+       SubscriptBox["j", 
+        RowBox[{"1", ",", "2"}]]}], "0", 
+      SubscriptBox["j", 
+       RowBox[{"2", ",", "3"}]]},
+     {
+      RowBox[{"-", 
+       SubscriptBox["j", 
+        RowBox[{"1", ",", "3"}]]}], 
+      RowBox[{"-", 
+       SubscriptBox["j", 
+        RowBox[{"2", ",", "3"}]]}], "0"}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Center}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}],
+  Function[BoxForm`e$, 
+   MatrixForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{{3.749925269957247*^9, 3.749925308288485*^9}},
+ CellLabel->
+  "Out[128]//MatrixForm=",ExpressionUUID->"0ce8b261-698d-475e-9769-\
+340b607ffd6c"]
+}, Open  ]],
+
 Cell["\<\
 ******************************************************************************\
 ****************************************************\
 \>", "Text",
  CellChangeTimes->{{3.74984894241932*^9, 
   3.749848953679418*^9}},ExpressionUUID->"6aaf530f-3620-4c18-a137-\
-ae8391ba322d"]
+ae8391ba322d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"TensorContract", "[", 
+    RowBox[{
+     RowBox[{
+     "R0", " ", "\[TensorProduct]", " ", "R0", " ", "\[TensorProduct]", " ", 
+      "R0", " ", "\[TensorProduct]", " ", 
+      RowBox[{"LeviCivitaTensor", "[", "3", "]"}]}], ",", 
+     RowBox[{"{", " ", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"2", ",", "7"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"4", ",", "8"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"6", ",", " ", "9"}], "}"}]}], "}"}]}], "]"}], "/", 
+   RowBox[{"Det", "[", "R0", "]"}]}], " ", "//", "Simplify"}]], "Input",
+ CellChangeTimes->{{3.749926623210905*^9, 3.749926752818089*^9}, {
+  3.749926800617009*^9, 3.7499268192920103`*^9}},
+ CellLabel->
+  "In[134]:=",ExpressionUUID->"f412de6a-2bb7-4e93-abbb-ca46de6e850c"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", "0"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", 
+       RowBox[{"-", "1"}], ",", "0"}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", 
+       RowBox[{"-", "1"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", "0"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "0", ",", "0"}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1", ",", "0"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", "0", ",", "0"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", "0"}], "}"}]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.749926625382021*^9, 3.749926640419228*^9}, 
+   3.749926754306657*^9, {3.749926808050696*^9, 3.749926820099103*^9}},
+ CellLabel->
+  "Out[134]=",ExpressionUUID->"5e33b667-d116-4e13-b142-e6c529bff686"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"%", " ", "\[Equal]", " ", 
+  RowBox[{"LeviCivitaTensor", "[", "3", "]"}]}]], "Input",
+ CellChangeTimes->{{3.749926831953376*^9, 3.749926837903151*^9}},
+ CellLabel->
+  "In[135]:=",ExpressionUUID->"136d481c-1038-4c9d-9108-b3ca69b92b1a"],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{3.749926840909539*^9},
+ CellLabel->
+  "Out[135]=",ExpressionUUID->"476b2eb0-a175-4f2d-b001-4add3b9fcfe4"]
+}, Open  ]],
+
+Cell["\<\
+******************************************************************************\
+**\
+\>", "Text",
+ CellChangeTimes->{{3.749926851062908*^9, 
+  3.749926858113316*^9}},ExpressionUUID->"2ce02377-6ffb-4530-bb6d-\
+41d3b3e69aa9"]
 },
 WindowSize->{1440, 794},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
@@ -6107,7 +6253,21 @@ Cell[CellGroupData[{
 Cell[226456, 5838, 422, 10, 37, "Input",ExpressionUUID->"221a82d9-69b5-4f7e-b1c9-a3382d3f23be"],
 Cell[226881, 5850, 206, 4, 42, "Output",ExpressionUUID->"21c870ac-a85a-450b-b917-8474f90d5771"]
 }, Open  ]],
-Cell[227102, 5857, 281, 6, 44, "Text",ExpressionUUID->"6aaf530f-3620-4c18-a137-ae8391ba322d"]
+Cell[227102, 5857, 195, 3, 44, "Text",ExpressionUUID->"9614e721-e414-4d9d-88bd-a9cc5ef7bcbf"],
+Cell[CellGroupData[{
+Cell[227322, 5864, 475, 13, 37, "Input",ExpressionUUID->"45a69247-2661-4f37-bf33-10da10f18587"],
+Cell[227800, 5879, 1176, 37, 105, "Output",ExpressionUUID->"0ce8b261-698d-475e-9769-340b607ffd6c"]
+}, Open  ]],
+Cell[228991, 5919, 281, 6, 44, "Text",ExpressionUUID->"6aaf530f-3620-4c18-a137-ae8391ba322d"],
+Cell[CellGroupData[{
+Cell[229297, 5929, 812, 21, 37, "Input",ExpressionUUID->"f412de6a-2bb7-4e93-abbb-ca46de6e850c"],
+Cell[230112, 5952, 1117, 33, 42, "Output",ExpressionUUID->"5e33b667-d116-4e13-b142-e6c529bff686"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[231266, 5990, 258, 5, 37, "Input",ExpressionUUID->"136d481c-1038-4c9d-9108-b3ca69b92b1a"],
+Cell[231527, 5997, 156, 3, 42, "Output",ExpressionUUID->"476b2eb0-a175-4f2d-b001-4add3b9fcfe4"]
+}, Open  ]],
+Cell[231698, 6003, 232, 6, 44, "Text",ExpressionUUID->"2ce02377-6ffb-4530-bb6d-41d3b3e69aa9"]
 }
 ]
 *)
